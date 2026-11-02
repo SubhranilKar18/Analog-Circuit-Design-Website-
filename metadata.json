@@ -1,0 +1,6 @@
+{
+  "name": "AnalogMaster: Zero to Analog IC Designer",
+  "description": "Interactive analog IC design curriculum, gm/Id sizing calculators, SPICE netlist workbench, and AI agent guide for mastering analog integrated circuit design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

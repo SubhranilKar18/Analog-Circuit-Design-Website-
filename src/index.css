@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --ieee-blue: #00629B;
+    --ieee-blue-dark: #004B76;
+    --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  body {
+    font-family: var(--font-serif);
+    background-color: #FFFFFF;
+    color: #111827;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+  }
+}
+
+.font-ieee-serif {
+  font-family: var(--font-serif);
+}
+
+.font-ieee-sans {
+  font-family: var(--font-sans);
+}
+
+.font-ieee-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Crisp technical engineering UI font for Interactive Lab & Calculators */
+.font-lab-ui {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.01em;
+  line-height: 1.5;
+}
+
+.font-lab-ui h1,
+.font-lab-ui h2,
+.font-lab-ui h3,
+.font-lab-ui h4,
+.font-lab-ui p,
+.font-lab-ui label,
+.font-lab-ui button,
+.font-lab-ui th {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+.katex-display {
+  margin: 0.5em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
